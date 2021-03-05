@@ -51,14 +51,19 @@ public class Student extends Person {
         email= scan.nextLine();
     }
 
-    @Override
-    public void display() {
+    // @Override
+    // public void display() {
      
-        System.out.println("ID: "+id);
-        super.display();
-        System.out.println("CPA: "+cpa);
-        System.out.println("Email: "+email);
+    //     System.out.println("ID: "+id);
+    //     super.display();
+    //     System.out.println("CPA: "+cpa);
+    //     System.out.println("Email: "+email);
         
+    // }
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return super.toString();
     }
     
 }

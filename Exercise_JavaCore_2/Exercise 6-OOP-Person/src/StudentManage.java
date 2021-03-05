@@ -16,7 +16,7 @@ public class StudentManage {
 
         for(int i = 0; i < n; i++){
             System.out.println("Thong tin cua sinh vien thu "+ (i+1)+":");
-            student[i].display();
+        System.out.println(student[i].toString());
         }
 
         scanner.close();

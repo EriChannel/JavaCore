@@ -73,11 +73,16 @@ public class Person {
         dateOfBirth= scan.nextLine();
     }
 
-    public void display (){
-        System.out.println("Ho ten: "+name);
-        System.out.println("Gioi tinh: "+gender);
-        System.out.println("Dia chi: "+address);
-        System.out.println("Ngay sinh: "+dateOfBirth);
+    // public void display (){
+    //     System.out.println("Ho ten: "+name);
+    //     System.out.println("Gioi tinh: "+gender);
+    //     System.out.println("Dia chi: "+address);
+    //     System.out.println("Ngay sinh: "+dateOfBirth);
+    // }
+
+    @Override
+    public String toString() {
+        return "Ho ten: "+ name + "\tGioi tinh: "+ gender + "\tDia chi: "+ address + "\tNgay sinh: "+dateOfBirth;
     }
 
     
