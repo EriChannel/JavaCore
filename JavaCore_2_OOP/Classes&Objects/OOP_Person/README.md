@@ -8,12 +8,16 @@ Một lớp trong java có thể chứa:
 - Lớp và interface
 
 Cú pháp tạo lớp:
-`<Phạm vi truy cập> class <Tên lớp> {`  
-    `<Thành viên truy cập>;`
-    `<Phương thức>;`
-`}`
 
+![image](https://user-images.githubusercontent.com/70504465/110069757-10394380-7dab-11eb-9b8c-3d3b0bf053cb.png)
 
+Cú pháp khai báo thuộc tính:
+
+![image](https://user-images.githubusercontent.com/70504465/110069795-29da8b00-7dab-11eb-9386-2b02fbd9cddd.png)
+
+Cú pháp khai báo phương thức:
+
+![image](https://user-images.githubusercontent.com/70504465/110069848-4e366780-7dab-11eb-984b-fef742a7ce25.png)
 
 ## Đối tượng
 Đối tượng là khái niệm cơ sở, quan trọng nhất của cách tiếp cận hướng đối tượng. 
@@ -22,8 +26,11 @@ Cú pháp tạo lớp:
  - Hành vi: là những thao tác, hành động mà đối tượng đó có thể thực hiện. Ví dụ: đi lại, ăn uống, nghi ngơi,…
 
 Tạo đối tượng bằng cách sử dụng từ khóa new, cú pháp:
-`<Tên lớp> <Tên biến tham chiếu> = new <Tên lớp>();`
+
+![image](https://user-images.githubusercontent.com/70504465/110069689-ee3fc100-7daa-11eb-8e98-6a82e0646349.png)
 
 Cú pháp cung cấp thông tin cho thuộc tính: 
-`<Tên biến tham chiếu>.<Thuộc tính> = <Giá trị>;`
+
+![image](https://user-images.githubusercontent.com/70504465/110069848-4e366780-7dab-11eb-984b-fef742a7ce25.png)
+
 
