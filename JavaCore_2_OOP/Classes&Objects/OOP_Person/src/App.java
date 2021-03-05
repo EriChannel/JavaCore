@@ -7,17 +7,15 @@ public class App {
         person.address = "HG";
 
         //In thong tin
+        person.display();
+        person.move();  //goi toi phuong thuc move
         System.out.println("Xin chao toi ten la "+person.name+ ", toi "+person.age+ " tuoi, toi den tu "+person.address);
 
-        Person person2 = new Person(); //Tao doi tuong person2
-        //Cung cap thong tin cho doi tuong
-        person2.name = "Linh";
-        person2.age = 30;
-        person2.address = "HN";
-
+        Person person2 = new Person("Linh", 30, "HN"); //Tao doi tuong person2
+   
         // In thong tin
-        System.out.println("Ten: "+person2.name);
-        System.out.println("Tuoi: "+person2.age);
-        System.out.println("Dia chi: "+person2.address);
+        person2.display();
+        
+        person2.study("English");   //goi toi phuong thuc study
     }
 }

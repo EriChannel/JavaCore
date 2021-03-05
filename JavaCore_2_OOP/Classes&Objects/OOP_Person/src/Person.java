@@ -5,6 +5,17 @@ public class Person {
     public int age;
     public String address;
 
+    //Constructor có tham số
+    public Person(String name, int age, String address) {
+        this.name = name;
+        this.age = age;
+        this.address = address;
+    }
+    //Constructor mac dinh
+    public Person() {
+    }
+    
+
     //Phuong thuc khong co tham so
     public void move(){
         System.out.println("Goi toi phuong thuc move!!!");
@@ -16,5 +27,15 @@ public class Person {
         System.out.println("Goi toi phuong thuc study");
         System.out.println(name + " study "+subject);
     }
+
+    public void display(){
+        System.out.println("Ten: "+name);
+        System.out.println("Tuoi: "+age);
+        System.out.println("Dia chi: "+address);
+    }
+
+    
+
+    
     
 }
