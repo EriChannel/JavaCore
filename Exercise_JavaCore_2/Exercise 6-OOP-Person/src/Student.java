@@ -40,7 +40,7 @@ public class Student extends Person {
 
     @Override
     public void input() {
-        // TODO Auto-generated method stub
+       
         System.out.print("Nhap ma sinh vien :");
         id= scan.nextLine();
         super.input();
@@ -53,7 +53,7 @@ public class Student extends Person {
 
     @Override
     public void display() {
-        // TODO Auto-generated method stub
+     
         System.out.println("ID: "+id);
         super.display();
         System.out.println("CPA: "+cpa);
