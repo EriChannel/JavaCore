@@ -1,3 +1,6 @@
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Scanner;
 
 /**
@@ -10,7 +13,6 @@ public class Person {
     private String address;
     private String dateOfBirth;
     Scanner scan = new Scanner(System.in);
-
 
     public Person() {
     }
@@ -70,7 +72,7 @@ public class Person {
         System.out.print("Nhap dia chi : ");
         address= scan.nextLine();
         System.out.print("Nhap ngay sinh : ");
-        dateOfBirth= scan.nextLine();
+        dateOfBirth = scan.nextLine();
     }
 
     // public void display (){

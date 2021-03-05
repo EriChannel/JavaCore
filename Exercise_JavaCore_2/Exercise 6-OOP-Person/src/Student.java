@@ -1,17 +1,10 @@
+
 public class Student extends Person {
     private String id;
     private double cpa;
     private String email;
 
     public Student() {
-    }
-
-    public Student(String name, String gender, String address, String dateOfBirth, String id, double cpa,
-            String email) {
-        super(name, gender, address, dateOfBirth);
-        this.id = id;
-        this.cpa = cpa;
-        this.email = email;
     }
 
     public String getId() {
@@ -40,30 +33,39 @@ public class Student extends Person {
 
     @Override
     public void input() {
-       
+
         System.out.print("Nhap ma sinh vien :");
-        id= scan.nextLine();
+        id = scan.nextLine();
         super.input();
-        
+
         System.out.print("Nhap diem trung binh :");
-        cpa= Double.valueOf(scan.nextLine());
+        cpa = Double.valueOf(scan.nextLine());
         System.out.print("Nhap email :");
-        email= scan.nextLine();
+        email = scan.nextLine();
     }
 
     // @Override
     // public void display() {
-     
-    //     System.out.println("ID: "+id);
-    //     super.display();
-    //     System.out.println("CPA: "+cpa);
-    //     System.out.println("Email: "+email);
-        
+
+    // System.out.println("ID: "+id);
+    // super.display();
+    // System.out.println("CPA: "+cpa);
+    // System.out.println("Email: "+email);
+
     // }
     @Override
     public String toString() {
         // TODO Auto-generated method stub
         return super.toString();
     }
+
+    public Student(String name, String gender, String address, String dateOfBirth, String id, double cpa,
+            String email) {
+        super(name, gender, address, dateOfBirth);
+        this.id = id;
+        this.cpa = cpa;
+        this.email = email;
+    }
+
     
 }
