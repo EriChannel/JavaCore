@@ -56,7 +56,7 @@ public class Student extends Person {
     @Override
     public String toString() {
         // TODO Auto-generated method stub
-        return super.toString();
+        return "\tID: " + id + super.toString() + "\tCPA: "+ cpa + "\tEmail: " + email;
     }
 
     public Student(String name, String gender, String address, String dateOfBirth, String id, double cpa,

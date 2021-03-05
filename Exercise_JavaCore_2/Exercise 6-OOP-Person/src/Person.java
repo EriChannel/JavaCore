@@ -84,7 +84,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Ho ten: "+ name + "\tGioi tinh: "+ gender + "\tDia chi: "+ address + "\tNgay sinh: "+dateOfBirth;
+        return "\tHo ten: "+ name + "\tGioi tinh: "+ gender + "\tDia chi: "+ address + "\tNgay sinh: "+dateOfBirth;
     }
 
     
