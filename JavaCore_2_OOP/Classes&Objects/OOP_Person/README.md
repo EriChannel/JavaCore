@@ -31,6 +31,6 @@ Tạo đối tượng bằng cách sử dụng từ khóa new, cú pháp:
 
 Cú pháp cung cấp thông tin cho thuộc tính: 
 
-![image](https://user-images.githubusercontent.com/70504465/110069848-4e366780-7dab-11eb-984b-fef742a7ce25.png)
+![image](https://user-images.githubusercontent.com/70504465/110070091-c8ff8280-7dab-11eb-8fb1-f5b7cfce7baa.png)
 
 
