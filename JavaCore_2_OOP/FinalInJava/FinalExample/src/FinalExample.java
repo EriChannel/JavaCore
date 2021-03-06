@@ -2,11 +2,15 @@
  * ClassOne
  */
 class FinalExample {
-    static final int MAX;
+    // final int MAX = 90;
+    // public void change(){
+    //     MAX = 100;
+    // }
 
-    static{
-        MAX = 90;
+    final void finalExample(){
+        System.out.println("Phuong thuc finalExample");
     }
+
 }
 
     // public FinalExample() {

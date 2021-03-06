@@ -28,6 +28,18 @@ public class Pets extends Animal {
 
     }
 
+    @Override
+    public float run(float speed) {
+        // TODO Auto-generated method stub
+        return speed;
+    }
+
+    @Override
+    public float sleep(float hour) {
+        // TODO Auto-generated method stub
+        return hour;
+    }
+
     
 
     

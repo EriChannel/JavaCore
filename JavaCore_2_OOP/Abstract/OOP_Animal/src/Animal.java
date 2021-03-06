@@ -64,6 +64,8 @@ public abstract class Animal {
     }
 
     public abstract void eat(String food);
+    public abstract float run(float speed);
+    public abstract float sleep(float hour);
 
     public void input(){
         System.out.print("Nhap ten: ");
