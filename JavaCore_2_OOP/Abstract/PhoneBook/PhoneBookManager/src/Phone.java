@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Phone
  */
-public abstract class Phone {
+public class Phone {
     private String name;
     private String phoneNumber;
     Scanner scanner = new Scanner(System.in);
