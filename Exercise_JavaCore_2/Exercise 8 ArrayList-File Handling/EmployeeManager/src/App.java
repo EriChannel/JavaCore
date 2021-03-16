@@ -119,5 +119,11 @@ public class App {
             }
         }
     }
-
+    public static int employeeNumber() throws Exception{
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Nhap so luong nhan vien: ");
+        int n = scanner.nextInt();
+        if(n < 0) throw new Exception("So luong nhan vien khong duoc nho hon 0");
+        return n;
+    }
 }
